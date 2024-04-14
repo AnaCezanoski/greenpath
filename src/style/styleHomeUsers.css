@@ -1,0 +1,405 @@
+button {
+    border-radius: 12px;
+}
+
+.header {
+    background-color: whitesmoke;
+    height: 80px;
+    border-bottom: 1px solid #5ea5aeab;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfilIcon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 780px;
+    bottom: 45px;
+}
+
+.logoNomeIndex {
+    width: 171px;
+    height: 50px;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+
+.logoNome {
+    width: 171px;
+    height: 50px;
+    position: relative;
+    bottom: 35px;
+    left: 25px;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 45px;
+    top: 40px;
+}
+.imgInicio {
+    width: 650px;
+    height: 375px;
+    position: relative;
+    top: 50px;
+    left: 630px;
+}
+
+.titulo {
+    position: absolute;
+    font-family: "Overpass", sans-serif;
+    color: #0499AE;
+    font-size: 70px;
+    top: 175px;
+    left: 150px; 
+}
+
+.botao {
+    background-color: whitesmoke;
+    font-family: "Overpass", sans-serif;
+    border: none;
+    position: relative;
+    top: -100px;
+    left: 100px;
+    color: #0499AE;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+.botaoH {
+    background-color: whitesmoke;
+    font-family: "Overpass", sans-serif;
+    border: none;
+    position: relative;
+    bottom: 40px;
+    left: 750px;
+    color: #0499AE;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 10px;
+    cursor: pointer;
+    border-radius: 40px;
+} 
+
+.sobreHome {
+    background-color: #0499AE;
+    font-family: "Overpass", sans-serif;
+    color: #ffff;
+    padding: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnHomeSobre {
+    color: #fff;
+    font-family: "Overpass", sans-serif;
+    border: none;
+    color: #0499AE;
+    padding: 7px 25px;
+    position: relative;
+    left: 1050px;
+    bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerLocais{
+    width: 800px; 
+    height: 200px;
+    font-family: "Overpass", sans-serif;
+    color: #0499AE;
+    border: none;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    padding: 50px 325px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.btnHomeLocais{
+    background-color: whitesmoke;
+    font-family: "Overpass", sans-serif;
+    border: none;
+    position: relative;
+    width: 300px;
+    right: 90px;
+    top: 10px;
+    color: #0499AE;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: whitesmoke;
+    border-top: 1px solid #0499AE;
+
+}
+
+.logoNomeFooter {
+    width: 150px;
+    height: 44px;
+    position: relative;
+    bottom: 15px;
+    left: 575px;
+}
+
+@media screen and (max-width: 500px) {
+    button {
+        border-radius: 12px;
+    }
+    
+    .header {
+        background-color: whitesmoke;
+        height: 60px;
+        border-bottom: 1px solid #5ea5aeab;
+        color: #fff;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .perfilIcon {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        left: 30px;
+        bottom: 20px;
+    }
+    
+    .logoNomeIndex {
+        width: 105px;
+        height: 31px;
+        position: relative;
+        top: 7px;
+        left: 10px;
+    }
+    
+    .logoNome {
+        width: 105px;
+        height: 31px;
+        position: relative;
+        top: 7px;
+        left: 10px;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 45px;
+        top: 40px;
+    }
+    .imgInicio {
+        width: 300px;
+        height: 173px;
+        position: relative;
+        top: 150px;
+        left: 10px;
+    }
+    
+    .titulo {
+        position: absolute;
+        font-family: "Overpass", sans-serif;
+        color: #0499AE;
+        font-size: 30px;
+        top: 130px;
+        left: 50px; 
+    }
+    
+    .botao {
+        background-color: whitesmoke;
+        font-family: "Overpass", sans-serif;
+        border: none;
+        position: relative;
+        top: 160px;
+        left: 20px;
+        color: #0499AE;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 10px 10px;
+        cursor: pointer;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .botaoH {
+        background-color: whitesmoke;
+        font-family: "Overpass", sans-serif;
+        border: none;
+        position: relative;
+        bottom: -40px;
+        left: 40px;
+        color: #0499AE;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 5px 5px;
+        cursor: pointer;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .sobreHome {
+        background-color: #0499AE;
+        font-family: "Overpass", sans-serif;
+        position: relative;
+        top: 160px;
+        color: #ffff;
+        padding: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    #titSobre {
+        font-size: 30px;
+    }
+
+    #txtSobre {
+        font-size: 15px;
+    }
+    
+    .btnHomeSobre {
+        color: #fff;
+        font-family: "Overpass", sans-serif;
+        border: none;
+        color: #0499AE;
+        padding: 7px 10px;
+        position: relative;
+        left: 70px;
+        bottom: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .containerLocais{
+        width: 300px; 
+        height: 150px;
+        font-family: "Overpass", sans-serif;
+        color: #0499AE;
+        border: none;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        position: relative;
+        top: 200px;
+        left: 7px;
+        padding: 25px 85px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    .btnHomeLocais{
+        background-color: whitesmoke;
+        font-family: "Overpass", sans-serif;
+        border: none;
+        position: relative;
+        width: 300px;
+        right: 90px;
+        top: 10px;
+        color: #0499AE;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    
+    .footer {
+        background-color: whitesmoke;
+        border-top: 1px solid #0499AE;
+        position: relative;
+        top: 150px;
+    }
+    
+    .logoNomeFooter {
+        width: 150px;
+        height: 44px;
+        position: relative;
+        bottom: 10px;
+        left: 70px;
+    }
+    
+}
+
+#main{
+    border:solid;
+    height:100vh;
+    border-width: 0px;
+  }
+  #footer{
+    border:solid;
+  }
+
+footer {
+    border-top: 1px solid #0499AE;
+    background-color: whitesmoke;
+    color: #0499AE;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    position: static; 
+    width: 100%; 
+    text-align:left;
+    margin-top: 50px;
+  }
+  
+  .footer-section {
+    margin: 30px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #416368;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align:left;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .footer-bottom a {
+    color: #416368;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    color: #416368;
+    text-align:left;
+}
